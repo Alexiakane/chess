@@ -1,0 +1,26 @@
+div:nth-child(even) div:nth-child(2n+1) {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+div:nth-child(even) div:nth-child(2n) {
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+}
+div:nth-child(odd) div:nth-child(2n){
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+div:nth-child(odd) div:nth-child(2n+1){
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
